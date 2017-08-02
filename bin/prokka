@@ -1665,7 +1665,7 @@ sub setOptions {
     {OPT=>"compliant!",  VAR=>\$compliant, DEFAULT=>0, DESC=>"Force Genbank/ENA/DDJB compliance: --addgenes --mincontiglen 200 --centre XXX"},
     {OPT=>"centre=s",  VAR=>\$centre, DEFAULT=>'', DESC=>"Sequencing centre ID."},
     {OPT=>"accver=i",  VAR=>\$accver, DEFAULT=>1, DESC=>"Version to put in Genbank file"},
-    {OPT=>'notbl2asn!', VAR=>\$notbl2asn, DEFAULT=>0, DESC=>"Do not invoke tbl2asn. GenBank file will not be produced."}
+    {OPT=>'notbl2asn!', VAR=>\$notbl2asn, DEFAULT=>0, DESC=>"Do not invoke tbl2asn. GenBank file will not be produced."},
 #    {OPT=>"scaffolds!",  VAR=>\$scaffolds, DEFAULT=>0, DESC=>"Break scaffoldings into contigs and create .AGP file"},
     'Organism details:',
     {OPT=>"genus=s",  VAR=>\$genus, DEFAULT=>'Genus', DESC=>"Genus name"},
